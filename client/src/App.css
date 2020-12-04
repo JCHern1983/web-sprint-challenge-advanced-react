@@ -42,7 +42,96 @@ h1 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
+ 
+  
 }
+
+@media only screen 
+and (min-device-width : 300px) 
+and (max-device-width : 480px) {
+  .plant-list {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    
+  }
+  .plant-image {
+    margin-top: 30%;
+    max-width: 80px;
+    max-height: 15vh;
+    margin-left: 3%;
+  }
+  .plant-details {
+    padding: 0 15px 0 16px;
+    color: #fff;
+    font-weight: 200;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .plant-card {
+    max-width: 50%
+  
+  
+  }
+  .plant-name {
+    margin-top: 10%;
+  }
+
+  .checkout-section {
+    max-width: 30%
+
+  }
+  .container {
+    max-width: 100%;
+    margin-left: 75%;
+    margin: 0 auto;
+    border-bottom: 1px solid #cf0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .steps {
+    display: none;
+  }
+ 
+
+  h1 {
+    font-weight: 100;
+    color: white;
+    font-size: 1.5rem;
+  }
+  p {
+    max-width: 75%;
+  }
+
+  .plant-card2 {
+    border-bottom: 1px solid #cf0;
+  }
+  
+ .plant-image2 {
+    height: 150px;
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+  
+  .plant-details2 {
+    justify-content: center;
+    margin-left: 10%
+  }
+  .plant-button {
+    margin-left: 5%;
+  }
+
+}
+
+
+
+
+
 
 .plant-card {
   display: flex;
