@@ -7,9 +7,9 @@ export default function ShoppingCart(props) {
   return (
     <div className="cart">
       {props.cart.map((plant) => (
-        <div className="plant-card" key={plant.id}>
-          <img className="plant-image" src={plant.img} alt={plant.name} />
-          <div className="plant-details">
+        <div className="plant-card2" key={plant.id}>
+          <img className="plant-image2" src={plant.img} alt={plant.name} />
+          <div className="plant-details2">
             <h2 className="plant-name">{plant.name}</h2>
             <p>${plant.price}</p>
             <button
